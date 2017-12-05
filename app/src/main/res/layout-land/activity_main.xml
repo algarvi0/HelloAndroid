@@ -90,6 +90,7 @@
                 android:autoSizeTextType="uniform"
                 android:drawablePadding="@android:dimen/app_icon_size"
                 android:drawableStart="@drawable/icons8_map_marker_48"
+                android:paddingLeft="16dp"
                 android:paddingRight="16dp"
                 android:text="@string/address"
                 android:textAlignment="textStart"
