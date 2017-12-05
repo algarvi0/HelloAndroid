@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HelloAndroid</string>
+    <string name="logo">Udacity Logo</string>
+    <string name="logodesc">Udacity Logo image</string>
+    <string name="frase1">Learn.Thing.Do.</string>
+    <string name="frase1land">Learn.\nThing.\nDo.</string>
+    <string name="name">Udacity</string>
+    <string name="phone">650-555-5555</string>
+    <string name="website">www.udacity.com</string>
+    <string name="address">2465 Latham St\nMountain View, CA 94043</string>
+</resources>
