@@ -5,15 +5,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/material_light_white"
     android:orientation="vertical"
-    tools:context="MainActivity"
-    android:background="@color/material_blue_grey_50">
+    tools:context="MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
-        android:background="@color/material_blue_grey_50"
+        android:background="@color/material_light_white"
         android:baselineAligned="false"
         android:orientation="horizontal">
 
@@ -21,7 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="2"
-            android:background="@color/material_blue_grey_50"
+            android:background="@color/material_light_white"
             android:orientation="vertical">
 
             <ImageView
@@ -57,7 +57,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@color/material_blue_grey_50"
+            android:background="@color/material_light_white"
             android:orientation="vertical">
 
             <TextView
@@ -71,6 +71,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_weight="0"
                 android:autoSizeTextType="uniform"
+                android:drawableLeft="@drawable/icons8_home_48"
                 android:drawablePadding="@android:dimen/app_icon_size"
                 android:drawableStart="@drawable/icons8_home_48"
                 android:text="@string/name"
@@ -89,6 +90,7 @@
                 android:autoSizeTextType="uniform"
                 android:drawablePadding="@android:dimen/app_icon_size"
                 android:drawableStart="@drawable/icons8_map_marker_48"
+                android:paddingRight="16dp"
                 android:text="@string/address"
                 android:textAlignment="textStart"
                 tools:targetApi="o" />
@@ -105,12 +107,12 @@
                 android:layout_weight="1"
                 android:autoLink="phone"
                 android:autoSizeTextType="uniform"
+                android:drawableLeft="@drawable/icons8_phone_48"
                 android:drawablePadding="@android:dimen/app_icon_size"
                 android:drawableStart="@drawable/icons8_phone_48"
                 android:text="@string/phone"
                 android:textAlignment="textStart"
-                tools:targetApi="o"
-                android:drawableLeft="@drawable/icons8_phone_48" />
+                tools:targetApi="o" />
 
             <TextView
                 android:id="@+id/textView5"

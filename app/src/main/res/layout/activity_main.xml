@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/material_blue_grey_50"
+    android:background="@color/material_light_white"
     android:orientation="vertical"
     android:weightSum="6"
     tools:context="MainActivity">
@@ -46,12 +46,12 @@
         android:layout_marginTop="8dp"
         android:layout_weight="0"
         android:autoSizeTextType="uniform"
+        android:drawableLeft="@drawable/icons8_home_48"
         android:drawablePadding="@android:dimen/app_icon_size"
         android:drawableStart="@drawable/icons8_home_48"
         android:paddingHorizontal="8dp"
         android:text="@string/name"
-        tools:targetApi="o"
-        android:drawableLeft="@drawable/icons8_home_48" />
+        tools:targetApi="o" />
 
     <TextView
         android:id="@+id/textView3"
@@ -65,9 +65,9 @@
         android:layout_weight="0"
         android:autoLink="map"
         android:autoSizeTextType="uniform"
+        android:drawableLeft="@drawable/icons8_map_marker_48"
         android:drawablePadding="@android:dimen/app_icon_size"
         android:drawableStart="@drawable/icons8_map_marker_48"
-        android:drawableLeft="@drawable/icons8_map_marker_48"
         android:paddingHorizontal="8dp"
         android:text="@string/address"
         tools:targetApi="o"
@@ -89,8 +89,8 @@
         android:drawableStart="@drawable/icons8_phone_48"
         android:paddingHorizontal="8dp"
         android:text="@string/phone"
-        tools:targetApi="o"
-        tools:ignore="RtlCompat" />
+        tools:ignore="RtlCompat"
+        tools:targetApi="o" />
 
     <TextView
         android:id="@+id/textView5"
@@ -104,9 +104,9 @@
         android:layout_weight="0"
         android:autoLink="web"
         android:autoSizeTextType="uniform"
+        android:drawableLeft="@drawable/icons8_website_48"
         android:drawablePadding="@android:dimen/app_icon_size"
         android:drawableStart="@drawable/icons8_website_48"
-        android:drawableLeft="@drawable/icons8_website_48"
         android:paddingHorizontal="8dp"
         android:text="@string/website"
         tools:targetApi="o" />
