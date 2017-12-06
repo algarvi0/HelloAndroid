@@ -9,6 +9,8 @@
     tools:context="MainActivity">
     <!-- In the HelloAndroid Project i used two diferent layout version:
         Portrait version uses LinearLayout with Image and
+
+
     -->
 
 
