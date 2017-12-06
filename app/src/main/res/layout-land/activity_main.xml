@@ -43,7 +43,8 @@
                 android:textColor="@color/material_blue_900"
                 android:textSize="24sp"
                 android:textStyle="bold"
-                android:typeface="sans" />
+                android:typeface="sans"
+                tools:targetApi="jelly_bean" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -51,40 +52,42 @@
             android:layout_weight="1"
             android:background="@color/material_light_white"
             android:orientation="vertical">
+
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginTop="8dp"
                 android:layout_weight="0"
-                android:autoSizeTextType="uniform"
                 android:drawableLeft="@drawable/icons8_home_48"
                 android:drawablePadding="@android:dimen/app_icon_size"
                 android:drawableStart="@drawable/icons8_home_48"
                 android:text="@string/name"
+                android:textAlignment="gravity"
+                android:textColorLink="@color/material_blue_900"
+                android:textSize="36sp"
                 tools:targetApi="o" />
+
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
                 android:layout_marginBottom="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_weight="1"
                 android:autoLink="map"
-                android:autoSizeTextType="uniform"
                 android:drawableLeft="@drawable/icons8_map_marker_48"
                 android:drawablePadding="@android:dimen/app_icon_size"
                 android:drawableStart="@drawable/icons8_map_marker_48"
-                android:paddingLeft="0dp"
-                android:paddingRight="16dp"
+                android:gravity="left|center"
                 android:text="@string/address"
                 android:textAlignment="textStart"
+                android:textColorLink="@color/material_blue_900"
+                android:textSize="18sp"
                 tools:targetApi="o" />
 
             <TextView
@@ -92,18 +95,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
-                android:layout_marginTop="0dp"
+                android:layout_marginTop="8dp"
                 android:layout_weight="1"
                 android:autoLink="phone"
-                android:autoSizeTextType="uniform"
                 android:drawableLeft="@drawable/icons8_phone_48"
                 android:drawablePadding="@android:dimen/app_icon_size"
                 android:drawableStart="@drawable/icons8_phone_48"
+                android:gravity="left|center"
                 android:text="@string/phone"
                 android:textAlignment="textStart"
+                android:textColorLink="@color/material_blue_900"
+                android:textSize="26sp"
                 tools:targetApi="o" />
 
             <TextView
@@ -118,9 +123,14 @@
                 android:layout_weight="1"
                 android:autoLink="web"
                 android:autoSizeTextType="uniform"
+                android:drawableLeft="@drawable/icons8_website_48"
                 android:drawablePadding="@android:dimen/app_icon_size"
                 android:drawableStart="@drawable/icons8_website_48"
+                android:gravity="left|center"
                 android:text="@string/website"
+                android:textAlignment="textStart"
+                android:textColorLink="@color/material_blue_900"
+                android:textSize="26sp"
                 tools:targetApi="o" />
         </LinearLayout>
     </LinearLayout>
