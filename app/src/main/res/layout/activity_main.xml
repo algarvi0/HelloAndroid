@@ -9,13 +9,8 @@
     tools:context="MainActivity">
     <!-- In the HelloAndroid Project i used two diferent layout version:
         Portrait version uses LinearLayout with Image and
-
-
     -->
-
-
     <!-- In this Project i used two view versions: Portrait and LandScape.
-
     -->
     <ImageView
         android:id="@+id/image"
