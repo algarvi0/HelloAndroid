@@ -7,11 +7,9 @@
     android:orientation="vertical"
     android:weightSum="6"
     tools:context="MainActivity">
-    <!-- In the HelloAndroid Project i used two different layout version:
-        Portrait version uses LinearLayout with Image and Text views
-
-    -->
-    <!-- In this Project i used two view versions: Portrait and LandScape.
+    <!--
+    In the HelloAndroid Project i used two different layout version:
+    Portrait version uses LinearLayout with Image and Text views.
     -->
     <ImageView
         android:id="@+id/image"
